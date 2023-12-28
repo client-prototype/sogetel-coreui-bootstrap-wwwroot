@@ -1,36 +1,7 @@
-@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
-
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/*element.style {
-}
-
-#strom-app {
-    display: none;
-}
-
-#strom-app {
-    display: block !important;
-}
-*/
-body {
-    margin: 0;
-    /* position: relative; */
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-/*    overflow-x: hidden;*/
-    overflow-y: auto;
-    color: #2f3943;
-    background-color: #f2f3f6;
-}
-/*div.dataTables_wrapper {
-    width: auto;
-    margin: 0 auto;
-}
-*/
 h1:focus {
     outline: none;
 }
@@ -126,3 +97,7 @@ a, .btn-link {
     .loading-progress-text:after {
         content: var(--blazor-load-percentage-text, "Loading");
     }
+
+code {
+    color: #c02d76;
+}
