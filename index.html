@@ -10,33 +10,11 @@
     <link href="css/app.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="sogetel-coreui-bootstrap.styles.css" rel="stylesheet" />
-    <link href="sogetel-coreui-bootstrap.styles.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <!--<link href="css/style.css" rel="stylesheet" />-->
-    <link href="css/table-timeline.css" rel="stylesheet" />
-    <!--<link href="css/tables-new-gen.css" rel="stylesheet" />-->
-    <link href="css/table.css" rel="stylesheet" />
     <link href="css/datatables.css" rel="stylesheet" />
-    <!-- Vendors styles-->
-    <link rel="stylesheet" href="vendors/simplebar/css/simplebar.css">
-
-    <style>
-        body {
-            margin: 0;
-            font-family: var(--cui-body-font-family);
-            font-size: var(--cui-body-font-size);
-            font-weight: var(--cui-body-font-weight);
-            line-height: var(--cui-body-line-height);
-            color: var(--cui-body-color);
-            text-align: var(--cui-body-text-align);
-            background-color: var(--cui-body-bg);
-            -webkit-text-size-adjust: 100%;
-            -webkit-tap-highlight-color: rgba(8, 10, 12, 0);
-            background-color: var(--cui-tertiary-bg);
-        }   
-    </style>
-
-
+    <link href="css/table-timeline.css" rel="stylesheet" />
+    <link href="css/tables-new-gen.css" rel="stylesheet" />
 </head>
 
 
@@ -55,9 +33,12 @@
         <a class="dismiss">🗙</a>
     </div>
 
+    <script src="js/datatables.js"></script>
+    <script src="js/datatables.js"></script>
+    <script src="js/datatables.js.map"></script>
 
-
-    <script src="js/calendar.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <!--<script src="js/calendar.js"></script>
     <script src="js/charts.js"></script>
     <script src="js/color-modes.js"></script>
     <script src="js/colors.js"></script>
@@ -72,7 +53,35 @@
     <script src="js/toasts.js"></script>
     <script src="js/tooltips.js"></script>
     <script src="js/widgets.js"></script>
-    <script src="_framework/blazor.webassembly.js"></script>
+    <a href="js/charts.js.map">js/charts.js.map</a>
+    <a href="js/color-modes.js.map">js/color-modes.js.map</a>
+    <a href="js/colors.js.map">js/colors.js.map</a>
+    <a href="js/config.js.map">js/config.js.map</a>
+    <a href="js/datatables.js.map">js/datatables.js.map</a>
+    <a href="js/google-maps.js.map">js/google-maps.js.map</a>
+    <a href="js/i18next.js.map">js/i18next.js.map</a>
+    <a href="js/loading-buttons.js.map">js/loading-buttons.js.map</a>
+    <a href="js/main.js.map">js/main.js.map</a>
+    <a href="js/multi-select.js.map">js/multi-select.js.map</a>
+    <a href="js/popovers.js.map">js/popovers.js.map</a>
+    <a href="js/toasts.js.map">js/toasts.js.map</a>
+    <a href="js/tooltips.js.map">js/tooltips.js.map</a>
+    <a href="js/widgets.js.map">js/widgets.js.map</a>-->
+
+
+    <script>
+        //window.addEventListener('load', () => {
+        //    document.body.style.backgroundColor = 'red'
+        //});
+        var table = $('#myTable').DataTable({
+            buttons: [
+                'copy', 'excel', 'pdf'
+            ]
+        });
+
+        table.buttons().container()
+            .appendTo($('.col-sm-6:eq(0)', table.table().container()));
+    </script>
 
 </body>
 
