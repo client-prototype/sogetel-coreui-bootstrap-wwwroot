@@ -1,7 +1,7 @@
 {
   "entryAssembly": "sogetel-coreui-bootstrap",
   "resources": {
-    "hash": "sha256-Tgqn5M79Xx4ps9v1coY7faM11Ovq98i+Y6wFr5d0T2k=",
+    "hash": "sha256-bACce62RJr6ehSBvoDIgNk2imQRWjeLfUDrGUtCJXvw=",
     "runtime": {
       "dotnet.7.0.14.yr81b01kfw.js": "sha256-YWGUknGRzP/fgO6YjvCJKPVQNZAPEd6ll+rHfQEIW+I=",
       "dotnet.timezones.blat": "sha256-t5xviiOQTfAsF0UDhmcyalKiaehUmf/sqJl97tmPM0M=",
@@ -25,7 +25,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-eXvGx2jcjpTPEJoAHBsW/VuMPbNyyU+AsuhPmkzSSRY=",
       "Microsoft.JSInterop.dll": "sha256-LjdcbA3WtwWbYygJWgc8vq7aPGsrvix13ESpNicMyYY=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-4cMfifCYL/bv5qiC8T6HyABhOewZlTXovRc+E/CrUbc=",
-      "sogetel-coreui-bootstrap.dll": "sha256-jEihdX5JR+yzHMf/49Pnz/zMdBt/vv1mGyftq8idOv8=",
+      "sogetel-coreui-bootstrap.dll": "sha256-ddqCz0bbMOBERuoyqlC7URJ0A3ZhjTUOcQsUJOq5v4w=",
       "System.Collections.Concurrent.dll": "sha256-iVVE9O+NcP6iYl4sd/ZeC3urQoyLH9oTiV2umPpI0Ec=",
       "System.Collections.dll": "sha256-148mIYhlg+XWPheH7pmnIIFR4iR7UvUBoeTAcFyB9nU=",
       "System.ComponentModel.dll": "sha256-pGP1Cnq1M/2Hkyb2tJWqyVXzPDBaqoWBi3pBs4L1Cbg=",
